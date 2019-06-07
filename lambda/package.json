@@ -1,0 +1,21 @@
+{
+  "name": "weather-nodejs-skill",
+  "version": "1.0.0",
+  "description": "Weather skill.",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "alexa-sdk": "^1.0.23",
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill"
+  ],
+  "author": "avargas",
+  "license": "Apache-2.0"
+}
