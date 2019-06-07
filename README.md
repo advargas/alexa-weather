@@ -11,7 +11,7 @@ The back end is where the logic of your skill resides.
 
 ### Backend AWS Lambda
 
-The AWS Lambda handles all defined intents, for testing purposes, the weather information is requested through the OpenWeatherMap API:
+The backend of the skill is an AWS Lambda function written in NodeJS, using the alexa-sdk version 1, and axios to perform a get request to pull the weather information. For testing purposes, the weather information is requested through the OpenWeatherMap API:
 [https://openweathermap.org/api](https://openweathermap.org/api)
 
 The Weather API invocation requires a **city** and an **API Key**: 
