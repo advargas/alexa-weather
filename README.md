@@ -14,8 +14,8 @@ The back end is where the logic of your skill resides.
 The AWS Lambda handles all defined intents, for testing purposes, the weather information is requested through the OpenWeatherMap API:
 [https://openweathermap.org/api](https://openweathermap.org/api)
 
-The Weather API invocation requires a **city** and an API Key: 
-https://api.openweathermap.org/data/2.5/weather?q=**{city}**&units=metric&appid=**{api_key}**
+The Weather API invocation requires a **city** and an **API Key**: 
+https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&appid={api_key}
 
 The API Key should be defined as an Environment variable of the AWS Lambda. 
 
